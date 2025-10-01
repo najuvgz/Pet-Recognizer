@@ -6,19 +6,10 @@ This is a machine learning project, the goal is to make an streamlit app where u
 
 The project is organized as follows:
 
-- **`src/app.py`** → Main Python script where your project will run.
-- **`src/explore.ipynb`** → Notebook for exploration and testing. Once exploration is complete, migrate the clean code to `app.py`.
-- **`src/utils.py`** → Auxiliary functions, such as database connection.
+- **`src/app.py`** → Main Python script 
 - **`requirements.txt`** → List of required Python packages.
-- **`models/`** → Will contain your SQLAlchemy model classes.
-- **`data/`** → Stores datasets at different stages:
-  - **`data/raw/`** → Raw data.
-  - **`data/interim/`** → Temporarily transformed data.
-  - **`data/processed/`** → Data ready for analysis.
-
-
-
-
+- **`models/`** → AI model
+  
 ## 💻 Local Setup 
 
 **Prerequisites**
